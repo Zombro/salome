@@ -1,8 +1,8 @@
-FROM frodon1/debian:latest-salome7
+FROM frodon1/debian:latest-salome8
 MAINTAINER <frodon1@gmail.com>
 
 ENV SALOMEROOT /opt/salome
-ENV SALOMEVERSION V7_8_0
+ENV SALOMEVERSION V8_2_0
 
 COPY salome_yamm.py /opt/salome_yamm.py
 COPY yamm_docker.tar.gz /tmp

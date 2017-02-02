@@ -59,7 +59,7 @@ yamm_project.set_global_option('clean_build_if_success', True)
 yamm_project.set_global_option('separate_dependencies', True)
 yamm_project.set_global_option('write_soft_infos', False)
 yamm_project.set_global_option('use_system_version', True)
-yamm_project.set_global_option('software_remove_list', ['EFICASV1', 'EFICAS', 'EFICAS_NOUVEAU', 'XDATA', 'TIX', 'MATPLOTLIB'])
+yamm_project.set_global_option('software_remove_list', ['EFICASV1', 'EFICAS', 'EFICAS_NOUVEAU', 'TIX'])
 for soft in ('PARAVISADDONS', 'ADAO'):
     yamm_project.set_software_option(soft, "source_type", 'archive')
 
